@@ -17,6 +17,8 @@ tweets = pd.read_csv('corpus.csv')
 
 limited_tweets = tweets.sample(n=3000)
 
+already_processed_tweets = pd.read_pickl('embeddings.pkl')
+
 tokenizer = GPT2TokenizerFast.from_pretrained("gpt2")
 
 embeddings = []

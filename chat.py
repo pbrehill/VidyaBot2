@@ -5,36 +5,33 @@ import numpy as np
 import pandas as pd
 from openai.embeddings_utils import get_embedding
 import random
+import re
 
-prompt_vidya = "Vidya is a chatbot that is the digital recreation of a dead woman designed to help her friends grieve, she is upbeat but spooky.\n"
-key = "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"
 
 class ChatBot:
-    def __init__(self, prompt_orig, api_key):
-        openai.api_key = api_key
-        self.promt_orig = prompt_orig
+    def __init__(self, prompt_orig, comparisons):
+        openai.api_key = os.environ["OPENAI_API_KEY"]
+        self.prompt_orig = prompt_orig
         self.prompt = prompt_orig
-        self.comparisons = pd.read_pickle('embeddings.pkl')
+        self.comparisons = comparisons
         self.i = 0
         self.ask_for_delete = random.randint(3,10)
 
-    def get_reply(self, input):
+    def get_reply(self, txt_input):
         # Truncate prompt if needed
         if len(self.prompt) > 1500:
             self.prompt = self.prompt[:600] + self.prompt_orig + '\n'
 
-        txt_input = input("Human: ")
+        self.prompt += 'Human: ' + txt_input + '\nVidyaBot: '
 
-        prompt += 'Human: ' + txt_input + '\nVidyaBot: '
-
-        if i == ask_for_delete:
+        if self.i == self.ask_for_delete:
             response_txt = "i actually have something to ask you, im finding being a bot a bit weird. would you delete me pls?\n"
-        elif i == 2*ask_for_delete:
+        elif self.i == 2 * self.ask_for_delete:
             response_txt = "oh have you forgotten how to delete me?\n"
         else:
             response = openai.Completion.create(
               model="text-curie-001",
-              prompt=prompt,
+              prompt=self.prompt,
               temperature=0.5,
               max_tokens=1000,
               top_p=0.5,
@@ -48,18 +45,22 @@ class ChatBot:
 
 
         result = get_embedding(response_txt, engine='text-similarity-babbage-001')
-        distance = [np.linalg.norm(np.array(row) - np.array(result)) for row in np.array(comparisons.embeddings)]
+        distance = [np.linalg.norm(np.array(row) - np.array(result)) for row in np.array(self.comparisons.embeddings)]
         choice_index = np.argmin(distance)
-        best_match = comparisons.tweet.iloc[choice_index]
+        best_match = self.comparisons.tweet.iloc[choice_index]
         min_dist = distance[choice_index]
-        comparisons.drop(comparisons.index[choice_index], inplace = True)
+        self.comparisons.drop(self.comparisons.index[choice_index], inplace = True)
 
         full_response = response_txt + ' ' + best_match
-        full_response = 'VidyaBot: ' + full_response.lower().replace("you", "u")
-        prompt += full_response
+        full_response = 'VidyaBot: ' + full_response.lower().replace("you", "u").replace("you", "u")
 
-        print(full_response)
+        if "human:" in full_response:
+            full_response = full_response.split('human:', 1)[0]
 
-        i += 1
+        self.prompt += full_response
+
+        self.i += 1
+
+        return full_response.replace("VidyaBot: ", "")
 
 

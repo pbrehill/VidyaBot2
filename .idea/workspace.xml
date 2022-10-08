@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="612ec624-be67-402e-bfb5-56684f3b33c0" name="Default Changelist" comment="Got a pretty good backend prototype">
+      <change afterPath="$PROJECT_DIR$/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chat.py" beforeDir="false" afterPath="$PROJECT_DIR$/chat.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload_corpus.py" beforeDir="false" afterPath="$PROJECT_DIR$/upload_corpus.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2FoAgKwxy2BwhKBQKcEFh0i0nEC" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python.app">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\pbreh\anaconda3\envs\VidyaBot\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="chat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\pbreh\anaconda3\envs\VidyaBot\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chat.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="upload_corpus" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="C:\Users\pbreh\anaconda3\envs\VidyaBot\python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/upload_corpus.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="true" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.chat" />
+        <item itemvalue="Python.upload_corpus" />
+        <item itemvalue="Python.upload_corpus" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="612ec624-be67-402e-bfb5-56684f3b33c0" name="Default Changelist" comment="" />
+      <created>1665148172592</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1665148172592</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Got a pretty good backend prototype">
+      <created>1665221276698</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665221276698</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Got a pretty good backend prototype" />
+    <option name="LAST_COMMIT_MESSAGE" value="Got a pretty good backend prototype" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="101" y="355" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1665193217981">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="101" y="355" width="1092" height="714" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1665193217981" />
+    <state x="1252" y="198" key="#xdebugger.evaluate" timestamp="1665222328821">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1252" y="198" key="#xdebugger.evaluate/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1665222328821" />
+    <state width="1256" height="272" key="GridCell.Tab.0.bottom" timestamp="1665227638133">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="272" key="GridCell.Tab.0.bottom/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1665227638133" />
+    <state width="1256" height="272" key="GridCell.Tab.0.center" timestamp="1665227638132">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="272" key="GridCell.Tab.0.center/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1665227638132" />
+    <state width="1256" height="272" key="GridCell.Tab.0.left" timestamp="1665227638132">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="272" key="GridCell.Tab.0.left/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1665227638132" />
+    <state width="1256" height="272" key="GridCell.Tab.0.right" timestamp="1665227638132">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="272" key="GridCell.Tab.0.right/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1665227638132" />
+    <state width="1256" height="488" key="GridCell.Tab.1.bottom" timestamp="1665225009025">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="488" key="GridCell.Tab.1.bottom/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1665225009025" />
+    <state width="1256" height="488" key="GridCell.Tab.1.center" timestamp="1665225009025">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="488" key="GridCell.Tab.1.center/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1665225009025" />
+    <state width="1256" height="488" key="GridCell.Tab.1.left" timestamp="1665225009025">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="488" key="GridCell.Tab.1.left/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1665225009025" />
+    <state width="1256" height="488" key="GridCell.Tab.1.right" timestamp="1665225009025">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="1256" height="488" key="GridCell.Tab.1.right/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1665225009025" />
+    <state x="148" y="345" key="SettingsEditor" timestamp="1665157433572">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="148" y="345" key="SettingsEditor/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1665157433572" />
+    <state x="232" y="441" key="Vcs.Push.Dialog.v2" timestamp="1665221281450">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="232" y="441" key="Vcs.Push.Dialog.v2/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1665221281450" />
+    <state width="647" height="700" key="XDebugger.FullValuePopup" timestamp="1665214278438">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="647" height="700" key="XDebugger.FullValuePopup/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1665214278438" />
+    <state x="310" y="319" width="672" height="678" key="search.everywhere.popup" timestamp="1665203980507">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="310" y="319" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400/2560.0.2560.1400@0.0.2560.1400" timestamp="1665203980507" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="i" language="Python" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
