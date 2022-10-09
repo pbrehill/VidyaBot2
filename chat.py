@@ -61,6 +61,6 @@ class ChatBot:
 
         self.i += 1
 
-        return full_response.replace("VidyaBot: ", "")
+        return full_response
 
 
