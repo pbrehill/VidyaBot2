@@ -10,7 +10,7 @@ app = Flask(__name__)
 
 v_prompt = "VidyaBot is a chatbot that is the digital recreation of a dead woman designed to help her friends grieve, she is upbeat but spooky.\n"
 # comps = pd.read_pickle('/home/pbrehill/VidyaBot/VidyaBot2/embeddings.pkl')
-comps = decompress_pickle('embeddings.pbz2')
+comps = decompress_pickle('/home/pbrehill/VidyaBot/VidyaBot2/embeddings.pbz2')
 
 secret = secrets.token_urlsafe(32)
 
