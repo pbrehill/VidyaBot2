@@ -4,12 +4,13 @@ from flask import Flask, render_template, request, session
 import pandas as pd
 import random
 import secrets
+from compress_pickle import decompress_pickle
 
 app = Flask(__name__)
 
 v_prompt = "VidyaBot is a chatbot that is the digital recreation of a dead woman designed to help her friends grieve, she is upbeat but spooky.\n"
 # comps = pd.read_pickle('/home/pbrehill/VidyaBot/VidyaBot2/embeddings.pkl')
-comps = pd.read_pickle('embeddings.pkl')
+comps = decompress_pickle('embeddings.pbz2')
 
 secret = secrets.token_urlsafe(32)
 
